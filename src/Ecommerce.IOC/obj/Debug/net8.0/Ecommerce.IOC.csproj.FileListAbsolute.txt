@@ -1,5 +1,0 @@
-C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.IOC\obj\Debug\net8.0\Ecommerce.IOC.csproj.AssemblyReference.cache
-C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.IOC\obj\Debug\net8.0\Ecommerce.IOC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.IOC\obj\Debug\net8.0\Ecommerce.IOC.AssemblyInfoInputs.cache
-C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.IOC\obj\Debug\net8.0\Ecommerce.IOC.AssemblyInfo.cs
-C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.IOC\obj\Debug\net8.0\Ecommerce.IOC.csproj.CoreCompileInputs.cache
