@@ -1,0 +1,15 @@
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Domain.deps.json
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Domain.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Domain.pdb
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Base.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\bin\Debug\net8.0\Ecommerce.Base.pdb
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.csproj.AssemblyReference.cache
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.AssemblyInfo.cs
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.csproj.CopyComplete
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\refint\Ecommerce.Domain.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\Ecommerce.Domain.pdb
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Domain\obj\Debug\net8.0\ref\Ecommerce.Domain.dll

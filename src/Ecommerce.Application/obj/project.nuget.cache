@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hHYRhPU5ZN/WYdkapV6uhH/EkkmumDwMnt1ng6AhKm3ywrPEYPp/CZqnGDawzo8XZw0K+mucmKOM973gk+jNaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ArlanMendes\\Desktop\\Czar\\Ecommerce\\src\\Ecommerce.Application\\Ecommerce.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ArlanMendes\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\ArlanMendes\\.nuget\\packages\\libs.linq.fluent.expressions\\1.0.2\\libs.linq.fluent.expressions.1.0.2.nupkg.sha512",
+    "C:\\Users\\ArlanMendes\\.nuget\\packages\\libs.system.extensions\\1.0.3\\libs.system.extensions.1.0.3.nupkg.sha512",
+    "C:\\Users\\ArlanMendes\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

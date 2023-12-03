@@ -1,0 +1,17 @@
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\bin\Debug\net8.0\Ecommerce.Application.deps.json
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\bin\Debug\net8.0\Ecommerce.Application.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\bin\Debug\net8.0\Ecommerce.Application.pdb
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\bin\Debug\net8.0\Ecommerce.Base.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\bin\Debug\net8.0\Ecommerce.Domain.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\bin\Debug\net8.0\Ecommerce.Domain.pdb
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\bin\Debug\net8.0\Ecommerce.Base.pdb
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.csproj.AssemblyReference.cache
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.AssemblyInfoInputs.cache
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.AssemblyInfo.cs
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.csproj.CopyComplete
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\refint\Ecommerce.Application.dll
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\Ecommerce.Application.pdb
+C:\Users\ArlanMendes\Desktop\Czar\Ecommerce\src\Ecommerce.Application\obj\Debug\net8.0\ref\Ecommerce.Application.dll
