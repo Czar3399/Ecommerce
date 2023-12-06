@@ -5,6 +5,6 @@ namespace Ecommerce.Application.Products.Services.Interfaces
 {
     public interface IProductsService
     {
-        IEnumerable<ProductSimpleResponse> Query(ProductQueryRequest request);
+        IEnumerable<ProductResponse> Query(ProductQueryRequest request);
     }
 }

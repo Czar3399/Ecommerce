@@ -4,6 +4,6 @@ namespace Ecommerce.Application.Carts.DataTransfers.Responses
 {
     public class CartResponse : CartSimpleResponse
     {
-        public IEnumerable<CartProductResponse> Products { get; set; }
+        public IEnumerable<CartProductResponse> CartProducts { get; set; }
     }
 }

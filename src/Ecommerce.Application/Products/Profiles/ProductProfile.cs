@@ -8,7 +8,7 @@ namespace Ecommerce.Application.Products.Profiles
     {
         public ProductProfile()
         {
-            CreateMap<Product, ProductSimpleResponse>();
+            CreateMap<Product, ProductResponse>();
         }
     }
 }

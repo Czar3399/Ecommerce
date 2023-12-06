@@ -1,6 +1,8 @@
 ﻿using Ecommerce.Application.Carts.DataTransfers.Requests;
 using Ecommerce.Application.Carts.Services.Interfaces;
+using Ecommerce.Domain.Cupoms.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace Ecommerce.API.Controllers
 {

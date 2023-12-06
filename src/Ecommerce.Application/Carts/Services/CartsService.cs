@@ -2,6 +2,7 @@
 using AutoMapper.QueryableExtensions;
 using Ecommerce.Application.Carts.DataTransfers.Requests;
 using Ecommerce.Application.Carts.DataTransfers.Responses;
+using Ecommerce.Application.Carts.DataTransfers.Responses.Models;
 using Ecommerce.Application.Carts.Services.Interfaces;
 using Ecommerce.Domain.CartProducts.Entities;
 using Ecommerce.Domain.Carts.Entities;
@@ -18,20 +19,17 @@ namespace Ecommerce.Application.Carts.Services
         private readonly IMapper _mapper = mapper;
         private readonly IUnitOfWork _unitOfWork = unitOfWork;
 
-        public CartSimpleResponse Create()
+        public CartResponse Create()
         {
             Cart cart = new();
             cart = _manipulationRepository.Insert(cart);
-            return _mapper.Map<CartSimpleResponse>(cart);
+            return _mapper.Map<CartResponse>(cart);
         }
         public CartResponse Get(long id)
         {
-            return _queryRepository.Query<Cart>()
-                                    .Where(x => x.Id == id)
-                                    .ProjectTo<CartResponse>(_mapper.ConfigurationProvider)
-                                    .FirstOrDefault();
+            return _mapper.Map<CartResponse>(_queryRepository.Get<Cart>(id));
         }
-        public CartSimpleResponse TryManipulateProducts(long id, CartProductRequest request)
+        public CartResponse TryManipulateProducts(long id, CartProductRequest request)
         {
             if(request.Quantity == 0)
             {
@@ -39,7 +37,7 @@ namespace Ecommerce.Application.Carts.Services
             }
 
             Cart cart = _queryRepository.GetReference<Cart>(id);
-            Product product = _queryRepository.GetReference<Product>(id);
+            Product product = _queryRepository.GetReference<Product>(request.ProductId);
             CartProduct cartProduct = _queryRepository.Get<CartProduct>(x => x.Cart.Id == id && x.Product.Id == request.ProductId);
 
             try
@@ -78,12 +76,9 @@ namespace Ecommerce.Application.Carts.Services
                 throw;
             }
 
-            return _queryRepository.Query<Cart>()
-                                    .Where(x => x.Id == id)
-                                    .ProjectTo<CartSimpleResponse>(_mapper.ConfigurationProvider)
-                                    .FirstOrDefault();
+            return Get(id);
         }
-        public CartSimpleResponse AddCoupon(long id, string couponToken)
+        public CartResponse AddCoupon(long id, string couponToken)
         {
             Cart cart = _queryRepository.Get<Cart>(id);
             Coupon coupon = _queryRepository.Get<Coupon>(x => x.Token == couponToken);
@@ -108,12 +103,12 @@ namespace Ecommerce.Application.Carts.Services
                 throw;
             }
 
-            return _mapper.Map<CartSimpleResponse>(cart);
+            return _mapper.Map<CartResponse>(cart);
         }
 
-        public CartSimpleResponse Submit(long cartId, IEnumerable<CartProductRequest> request)
+        public CartResponse Submit(long cartId, IEnumerable<CartProductRequest> request)
         {
-            return new CartSimpleResponse();
+            return new CartResponse();
         }
     }
 }

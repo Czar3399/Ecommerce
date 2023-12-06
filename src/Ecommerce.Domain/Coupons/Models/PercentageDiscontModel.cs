@@ -2,7 +2,7 @@
 {
     public class PercentageDiscontModel
     {
-        public int Percentage { get; set; }
+        public decimal Percentage { get; set; }
         public int MaxValue { get; set; }
     }
 }

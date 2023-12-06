@@ -20,7 +20,7 @@ namespace Ecommerce.Application.Products.Services
             _mapper = mapper;
         }
 
-        public IEnumerable<ProductSimpleResponse> Query(ProductQueryRequest request)
+        public IEnumerable<ProductResponse> Query(ProductQueryRequest request)
         {
             var query = _queryRepository.Query<Product>();
 
@@ -40,7 +40,15 @@ namespace Ecommerce.Application.Products.Services
             {
                 query = query.WhereParam(x => x.Trademark).Like(request.Trademark);
             }
-            return query.ProjectTo<ProductSimpleResponse>(_mapper.ConfigurationProvider);
+            if (request.MaxPrice.HasValue)
+            {
+                query = query.WhereParam(x => x.Price).IsSmallerThen(request.MaxPrice.Value);
+            }
+            if (request.MinPrice.HasValue)
+            {
+                query = query.WhereParam(x => x.Price).IsBiggerThen(request.MinPrice.Value);
+            }
+            return query.ProjectTo<ProductResponse>(_mapper.ConfigurationProvider);
         }
     }
 }

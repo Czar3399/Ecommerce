@@ -1,14 +1,15 @@
 ﻿using Ecommerce.Application.Carts.DataTransfers.Requests;
 using Ecommerce.Application.Carts.DataTransfers.Responses;
+using Ecommerce.Application.Carts.DataTransfers.Responses.Models;
 
 namespace Ecommerce.Application.Carts.Services.Interfaces
 {
     public interface ICartsService
     {
-        CartSimpleResponse AddCoupon(long id, string couponToken);
-        CartSimpleResponse TryManipulateProducts(long id, CartProductRequest request);
-        CartSimpleResponse Create();
+        CartResponse AddCoupon(long id, string couponToken);
+        CartResponse TryManipulateProducts(long id, CartProductRequest request);
+        CartResponse Create();
         CartResponse Get(long id);
-        CartSimpleResponse Submit(long cartId, IEnumerable<CartProductRequest> request);
+        CartResponse Submit(long cartId, IEnumerable<CartProductRequest> request);
     }
 }

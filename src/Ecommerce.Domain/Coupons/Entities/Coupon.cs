@@ -31,8 +31,7 @@ namespace Ecommerce.Domain.Cupoms.Entities
                 var discountModel = JsonSerializer.Deserialize<PercentageDiscontModel>(DiscontValue);
 
                 var minimalValue = Math.Min(discountModel.MaxValue, cart.TotalPrice);
-
-                return minimalValue * discountModel.Percentage;
+                return minimalValue * (discountModel.Percentage / 100);
             }
 
             if (DiscontType is DiscontTypeEnum.Flat)
